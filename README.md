@@ -5,6 +5,7 @@
 
 bash
 #bash:
+
 $ cat < /dev/tcp/127.0.0.1/22
 SSH-2.0-OpenSSH_5.3
 ^C
@@ -15,6 +16,7 @@ bash: /dev/tcp/127.0.0.1/23: Connection refused
 
 Curl
 #Curl:
+
 $ curl -v telnet://127.0.0.1:22
 * About to connect() to 127.0.0.1 port 22 (#0)
 *   Trying 127.0.0.1... connected
@@ -31,6 +33,7 @@ curl: (7) couldn't connect to host
 
 Python
 # python:
+
 Python 2.6.6 (r266:84292, Oct 12 2012, 14:23:48)
 [GCC 4.4.6 20120305 (Red Hat 4.4.6-4)] on linux2
 Type "help", "copyright", "credits" or "license" for more information.
